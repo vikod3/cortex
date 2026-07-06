@@ -377,7 +377,7 @@ export default function App() {
           {/* Parallax Background Image with Overlays */}
           <div className="absolute inset-0 w-full h-full select-none pointer-events-none z-0">
             <motion.img 
-              src="https://i.ibb.co/GQcNTzW7/Frame-8118.png"
+              src="https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260706_102306_b64c5436-04bc-4cb4-83c1-8c83a83a285c.png&w=1920&q=85"
               alt="Cortex Tech Background" 
               className="w-full h-full object-cover"
               style={{ scale: bgScale }}
