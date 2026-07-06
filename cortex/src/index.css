@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter Tight', sans-serif;
+  --color-brand-bg: #122e58;
+}
+
+body {
+  background: linear-gradient(180deg, #020715 0%, #051329 35%, #0b264b 65%, #007bb8 88%, #00b8e6 100%) no-repeat;
+  background-attachment: fixed;
+  color: #ffffff;
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 400;
+  min-height: 100vh;
+  line-height: 1.4;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar for premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #020715;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
